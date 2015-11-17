@@ -32,7 +32,7 @@ tokenCount  | ```<uri (wikipedia style)>\t{(context_token1,count1),(context_toke
 
 
 
-
+## License 
 The MIT License (MIT)
 
 Copyright (c) 2015 Diffbot
