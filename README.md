@@ -1,5 +1,5 @@
 # wikistatsextractor
-A small tool to extract statistics from Wikipedia Dump files.
+A small tool that [Diffbot](http://www.diffbot.com) uses to extract statistics from Wikipedia Dump files for its [Global Index](http://www.diffbot.com/products/globalindex/).
 
 ## What it does
 
