@@ -21,10 +21,11 @@ You will need at least 14GB of RAM to execute this program, and around 100GB of 
 
 
 ## What does it produce?
-Right now mainly 4 files:
-File  | Line format
+Right now mainly the same 4 files initially produced by pignlproc for dbpedia spotlight.
+
+File  | Line Format
 ------------- | -------------
 uriCount  | ```<title>\t<uri>\t<count>```
-pairCount  |  ```<surface form>\t<uri>\t<count>```
-sfAndTotalCount  |  ```<surface form>\t<count as SF>\t<count as token>```
-tokenCount  |  ```<uri>\t{(context_token1,count1),(context_token2, count2),... }```
+pairCount  | ```<surface form>\t<uri>\t<count>```
+sfAndTotalCount  | ```<surface form>\t<count as SF>\t<count as token>```
+tokenCount  | ```<uri (wikipedia style)>\t{(context_token1,count1),(context_token2, count2),... }```
