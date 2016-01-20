@@ -226,8 +226,8 @@ public class DumpParser {
 	 */
 	public void extract(final String[] path_to_dumps, final long max_nb_pages_to_extract) {
 		long start = System.currentTimeMillis();
-
-		ExecutorService es = Executors.newFixedThreadPool(getNbProcessor());
+		int nb_threads=2+workers.size();
+		ExecutorService es = Executors.newFixedThreadPool(nb_threads);
 
 		if (workers.size() == 0) {
 			System.out.println("No workers have been specified ");
